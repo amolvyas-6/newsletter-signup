@@ -18,7 +18,7 @@ submitBtn.addEventListener('click', function(e){
     }
     else{
         sessionStorage.setItem('email', email);
-        window.location.replace('/success.html');
+        window.location.replace('success.html');
     }
 })
 

@@ -3,5 +3,5 @@ document.querySelector('.email-output').textContent = sessionStorage.getItem('em
 const button = document.querySelector('button');
 
 button.addEventListener('click', function(){
-    window.location.replace('/index.html');
+    window.location.replace('index.html');
 })
